@@ -18,7 +18,6 @@ class Homework2 : public Base
 
 	int GetInput();
 	void Draw(int size = 5);
-	void DrawSpace(int);
 	void DrawChar(int, const char*);
 	bool AskOneMore();
 public:
