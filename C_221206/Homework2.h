@@ -21,6 +21,6 @@ class Homework2 : public Base
 	void DrawChar(int, const char*);
 	bool AskOneMore();
 public:
-	void Run();
+	virtual void Run() override;
 };
 

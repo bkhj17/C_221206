@@ -18,6 +18,6 @@ class Homework : public Base
 	void GameOver();
 	void Intro();
 public:
-	void Run();
+	virtual void Run() override;
 };
 
