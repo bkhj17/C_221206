@@ -60,14 +60,16 @@ int Homework2::GetInput() {
 	return n;
 }
 
+void Homework2::DrawChar(int n, const char* c) {
+	for (int j = 0; j < n; j++)
+		printf("%s", c);
+}
+
 void Homework2::Draw(int size)
 {
 	for (int i = 0; i < size; i++) {
-		for (int j = 0; j < abs(size / 2 - i); j++)
-			printf("%s", Homework2::BLANK);
-		
-		for (int j = 0; j < (i*2 < size ? i*2+1 : (size-i)*2-1); j++)
-			printf("%s", Homework2::STAR);
+		DrawChar(abs(size / 2 - i), BLANK);
+		DrawChar((i * 2 < size ? i * 2 + 1 : (size - i) * 2 - 1), STAR);
 		printf("\n");
 	}
 }
