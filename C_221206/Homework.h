@@ -1,7 +1,8 @@
 #pragma once
-#include <stdio.h>
 
-class Base {
+class Homework
+{
 public:
 	static void Run();
 };
+
