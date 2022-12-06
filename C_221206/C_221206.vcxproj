@@ -128,10 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Homework.cpp" />
+    <ClCompile Include="Homework2.cpp" />
+    <ClCompile Include="Loop.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RockPaperScissors.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Homework.h" />
+    <ClInclude Include="Homework2.h" />
+    <ClInclude Include="Loop.h" />
+    <ClInclude Include="RockPaperScissors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

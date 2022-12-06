@@ -1,8 +1,10 @@
-//#include "Homework.h"
+//#include "RockPaperScissors.h"
+//#include "Loop.h"
+#include "Homework.h"
+#include "Homework2.h"
 
 int main() {
-
-	//Homework::Run();
-
+	Homework r;
+	r.Run();
 	return 0;
 }
